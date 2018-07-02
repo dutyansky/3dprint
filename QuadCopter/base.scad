@@ -175,16 +175,16 @@ module base() {
               corner(3);       
           }
         }
-      translate([0, -44/2+20/2-44-20-8.5-1, 10+22+3])
+      translate([0, -44/2+20/2-44-20-8.5-2, 10+22+3])
         union() {
           hull() {
-            translate([-14/2, -(14-L_holderD)/2, 0])
+            translate([-14/2, -(16-L_holderD)/2, 0])
               corner(19);
-            translate([-14/2, +(14-L_holderD)/2, 0])
+            translate([-14/2, +(16-L_holderD)/2, 0])
               corner(19);
-            translate([+14/2, -(14-L_holderD)/2, 0])
+            translate([+14/2, -(16-L_holderD)/2, 0])
               corner(19);
-            translate([+14/2, +(14-L_holderD)/2, 0])
+            translate([+14/2, +(16-L_holderD)/2, 0])
               corner(19);       
           }
         }
@@ -192,16 +192,16 @@ module base() {
     }
 
     union() { // Subtractive part of Video TX bracket
-      translate([0, -44/2+20/2-44-20-8.5-10+8-1, 10+22+3-3])
+      translate([0, -44/2+20/2-44-20-8.5-10+8-3, 10+22+3-3])
         union() {
           hull() {
-            translate([-34/2, -(12-L_holderD)/2, 0])
+            translate([-34/2, -(14-L_holderD)/2, 0])
               corner(19);
-            translate([-34/2, +(12-L_holderD)/2, 0])
+            translate([-34/2, +(14-L_holderD)/2, 0])
               corner(19);
-            translate([+34/2, -(12-L_holderD)/2, 0])
+            translate([+34/2, -(14-L_holderD)/2, 0])
               corner(19);
-            translate([+34/2, +(12-L_holderD)/2, 0])
+            translate([+34/2, +(14-L_holderD)/2, 0])
               corner(19);       
           }
         }
@@ -212,7 +212,7 @@ module base() {
           cylinder(r1=L_holderD_in/2, r2=L_holderD_in/2, h=10, $n=60);     
       }
       // Hole for video TX antenna
-      translate([0, -44/2+20/2-44-20-8.5-10+8, 0]){
+      translate([0, -44/2+20/2-44-20-8.5-10+8-2, 0]){
         cylinder(r1=7/2 , r2=7/2, h=100, $n=60);
       }
     }
