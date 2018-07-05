@@ -1,0 +1,7 @@
+*.gcode
+*.stl
+MarlinTarantula-EasyConfig-Stable/*
+TEVO-PRINTER-FILES-master/*
+Test/*
+Modular_X_2/*
+Slic3r/*
