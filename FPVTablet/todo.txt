@@ -1,0 +1,4 @@
+- Hole near antenna (see the cuts)
+- Shorter "latch" (see the cuts)
+- round _all_ outer corners (replace outer box with hull on 4 speres)
+

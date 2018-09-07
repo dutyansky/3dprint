@@ -1,0 +1,16 @@
+gps_hold_2:
+  - increase hole D
+  - increase foot D(?)
+  - increase screw hole D(?)
+
+Table:
+  - Decrease battery height by 2mm -- no, higher for new accumulator
+  - Make antenna tighten better
+  ?- space on the e\right for TX
+  ?- places for OSD and beeper?
+
+G_hold:
+ ?- tune mating with lens
+ ?- tune orientation
+
+Padding for the whole case on its lower side?
