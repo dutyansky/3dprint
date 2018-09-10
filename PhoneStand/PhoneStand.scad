@@ -44,7 +44,7 @@ module stand() {
             translate([0, -50, 62])
               cube([100, 100, 100], center=true);
         }    
-        translate([0, 26, 2]) 
+        translate([0, 26, 2.5]) 
           difference() {
             roundcube2(80, 50, 5, 6, 8);          
             translate([-0, -2, 0])   
