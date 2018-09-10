@@ -1,1 +1,0 @@
- - increase height of base (to ensure better sticking, non-deformation and "tail" quality
